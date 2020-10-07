@@ -117,20 +117,20 @@
 <p>So a full answer to your question means you have to define what type of <a href="animation.html">Animation</a> you're planning. Some links that might help: <span class="interwiki"><img 
         alt="udncontent logo"
         title="udncontent"
-        src="shared//InterWiki-udncontent.png">&nbsp;<a href="http://udn.epicgames.com/Two/ModelingTableOfContents">ModelingTableOfContents</a></span>, <span class="interwiki"><img 
+        src="shared//InterWiki-udncontent.png">&nbsp;<a href="https://docs.unrealengine.com/udk/Two/ModelingTableOfContents.html">ModelingTableOfContents</a></span>, <span class="interwiki"><img 
         alt="udncontent logo"
         title="udncontent"
-        src="shared//InterWiki-udncontent.png">&nbsp;<a href="http://udn.epicgames.com/Two/ActorX">ActorX</a></span>, <span class="interwiki"><img 
+        src="shared//InterWiki-udncontent.png">&nbsp;<a href="https://docs.unrealengine.com/udk/Two/ActorX.html">ActorX</a></span>, <span class="interwiki"><img 
         alt="udncontent logo"
         title="udncontent"
-        src="shared//InterWiki-udncontent.png">&nbsp;<a href="http://udn.epicgames.com/Two/UnrealVertexAnimation">UnrealVertexAnimation</a></span>, <a href="maya-ple-character-model-tu.html">Maya PLE Character Model Tutorial</a></p>
+        src="shared//InterWiki-udncontent.png">&nbsp;<a href="https://docs.unrealengine.com/udk/Two/UnrealVertexAnimation.html">UnrealVertexAnimation</a></span>, <a href="maya-ple-character-model-tu.html">Maya PLE Character Model Tutorial</a></p>
 <p><em class="em2">Shuriken:</em> Wow, thanks - detailed reply <img alt=":)" src="emoticons/smile.gif" align="middle"> (this is all new to me, so I need all the help I can get...)</p>
 <p>From what I've been working with today, I've realised that I'll definately need bones in the model to attach emitters to.  So I assume I have to go the ActorX route (I'm working in Max btw)... but I'm confused about Skeletal Animation.  Is it completely different form of animation?  Or can I do the regular 'move+rotate' animation that is detailed in the first part of this tutorial.. all I need is some simple recoil effects + select/down.</p>
 <p>Also, every weapon mutator I have comes with a .ukx.  Is this necessary for skeletal meshes?  I know with vertex animating the models you can embed it in the code, which is what I wish to do - possible for skeletal animation?</p>
 <p><em class="em2">Chip:</em> Hmmm...hard to answer succinctly, but basically vertex animation &amp; skeletal animation are significantly different methods of accomplishing the same task &ndash; animating a mesh. Vertex animation draws on more system resources (from what I've read) during game play, and can be harder to animate for some types of movement (like humanoid stuff.) For weapons, I don't know that it makes much diff, but all "stock" UT2K3 weps are .ukx files, which are skeletal mesh anims. Here's another UDN page to study &ndash; it makes the .ukx package a bit more understandable: <span class="interwiki"><img 
         alt="udncontent logo"
         title="udncontent"
-        src="shared//InterWiki-udncontent.png">&nbsp;<a href="http://udn.epicgames.com/Two/AnimBrowserTutorial">AnimBrowserTutorial</a></span></p>
+        src="shared//InterWiki-udncontent.png">&nbsp;<a href="https://docs.unrealengine.com/udk/Two/AnimBrowserTutorial.html">AnimBrowserTutorial</a></span></p>
 <p>I haven't done any weapons yet, so the "embed it in the code" question I can't speak to, but just from the standpoint of ease of animation, export &amp; import, the skeletal route seems better to me. Check out the ShockRifle_1st model &amp; anims in Weapons.ukx (use the Animations browser) &ndash; a good recoil anim example, among others.</p>
 <p><em class="em2">*Someone*:</em> Do you know if I can just clone the objects and move them into their individual frames?</p>
 <hr class="thin"><p><a href="category-tutorial.html">Category Tutorial</a></p>
